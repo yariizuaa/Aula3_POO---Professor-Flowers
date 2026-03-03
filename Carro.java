@@ -1,4 +1,4 @@
-package main;
+package main.java;
 
 	
 	
@@ -8,7 +8,7 @@ public class Carro {
 	private int ano;
 	
 	public Carro(String marca, String cor, int ano) {
-		super();
+		
 		this.marca = marca;
 		this.cor = cor;
 		this.ano = ano;
@@ -44,6 +44,7 @@ public class Carro {
 		return "BI BI";
 		
 	}
+
 	
 	
 
